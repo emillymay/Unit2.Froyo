@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit2Froyo</title>
+    <script scr="index.js"></script>
+</head>
+<body>
+    <h1>Froyo Shop</h1>
+    <p>Please give us your froyo order!</p>
+
+    <label for="input">Flavor:</label>
+    <input type="text" id="input" name ="input">
+    <button onclick="myFunction()">Sumbit</button>
+
+    <script>
+      function myFunction(){
+        let flavor = prompt("Enter flavors here:");
+        document.getElementById("input").value = flavor;
+      }
+    </script>
+</body>
+</html>
